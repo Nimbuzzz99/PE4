@@ -10,7 +10,8 @@ public class LongestSubStringTest {
 
 	@Test
 	public void testSubString() {
-		assertEquals("aabb",LongestSubString.subString("abcaabb"));
+		LongestSubString l = new LongestSubString();
+		assertEquals("aabb",l.longestSubstring("abcaabb"));
 	}
 
 }
